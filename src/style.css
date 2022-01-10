@@ -21,6 +21,18 @@ h1 {
     background-image: url(banana.jpeg);
     background-size: 10% 100%;
 }
+#tabs {
+    display: flex;
+    flex: .05;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+#tab-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #big-banana {
     flex: 1;
     background-image: url(banana.jpeg);
@@ -28,7 +40,7 @@ h1 {
     background-position: 50% 50%;
     background-size: 70% 70%;
 }
-#testimony {
+#main-content {
     display: flex;
     /* align-items: stretch; */
     justify-content: stretch;
@@ -45,5 +57,5 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: .1;
+    flex: .05;
 }
